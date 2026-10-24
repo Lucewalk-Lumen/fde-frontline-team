@@ -5,7 +5,7 @@
 > FDE (Frontline Deployment) team — scenario diagnostics, coaching and workshop mentoring
 
 
-Part of the [Lucewalk Experts](https://github.com/Lucewalk/lucewalk-experts) collection.
+Part of the [Lucewalk Lumen](https://github.com/Lucewalk/lucewalk-lumen) collection.
 
 
 ## What it does
