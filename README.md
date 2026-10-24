@@ -2,17 +2,25 @@
 
 **FDE 前线部署团** · v1.0.0 · `team`
 
-> A frontline-deployment (FDE) consultant team: loop scoring, loop specification design, acceptance audit, FDE coaching and education workshops.
+> FDE (Frontline Deployment) team — scenario diagnostics, coaching and workshop mentoring
 
 
-Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection — expert teams, agents and skills for the WorkBuddy AI assistant platform.
+Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection.
 
 
 ## What it does
 
-- **policy-radar**
-- **loop-scoring**
-- **edu-material-kit**
+- **Scenario diagnostician** — breaks a frontline deployment problem into its loop failures and decision points
+- **Loop architect** — designs and redesigns the delivery loop, from intake to acceptance
+- **Acceptance auditor** — audits what was actually delivered against what was agreed
+- **Coach & workshop mentor** — trains the frontline team on the corrected loop, one-on-one or in workshops
+
+## How it works
+
+- Diagnostics first: the scenario diagnostician maps the problem before anyone designs a fix
+- The loop architect turns the diagnosis into a deployable loop structure
+- Acceptance is audited against the agreed scope, not against intentions
+- Coaching and workshop formats close the loop with the human team
 
 ## Agent roster
 
@@ -25,16 +33,23 @@ Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) co
 | `fde-scenario-diagnostician` | FDE 前线部署团 · 场景诊断师（简鉴） |
 | `fde-workshop-mentor` | FDE 前线部署团 · 教育工作坊导师（师阅） |
 
+## Skills
+
+`edu-material-kit` · `loop-scoring` · `policy-radar`
+
 ## Install
 
 1. Download the package zip from [Releases](https://github.com/Lucewalk/fde-frontline-team/releases) or clone this repo;
-2. Unzip keeping the internal manifest structure intact;
+2. Unzip keeping the `.codebuddy-plugin/` manifest structure intact;
 3. Import/register in WorkBuddy (custom connector → trust & enable).
+
 
 ## Version
 
-Current release: **v1.0.0** — see [CHANGELOG.md](CHANGELOG.md) if present, or the package manifest.
+Current release: **v1.0.0**. See the package manifest for details.
+
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
